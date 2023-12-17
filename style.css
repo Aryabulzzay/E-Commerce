@@ -1,0 +1,26 @@
+body {
+    padding-top: 56px;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      padding-top: 0;
+    }
+  }
+  
+  /* Add your custom styles below this line */
+  
+  #product-list .card {
+    margin-bottom: 20px;
+  }
+  
+  /* Add your custom styles above this line */
+  .top-right-image {
+    position: fixed;
+    top: 10px;
+    right: 0%;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 9999; /* Ensure the image stays on top */
+  }
+  
